@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include app data in backup -->
+    <include domain="file" path="." />
+    <!-- Exclude sensitive data -->
+    <exclude domain="file" path="cache/" />
+    <exclude domain="file" path="temp/" />
+</full-backup-content>
